@@ -1,0 +1,17 @@
+{
+  "name": "SMC",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-css": "tailwindcss build -i src/styles.css -o public/styles.css",
+    "watch-css": "tailwindcss build -i src/styles.css -o public/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
